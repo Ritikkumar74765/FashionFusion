@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comarce Web Design</title>
+    <!-- bs-5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom stylesheets -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Header starts here -->  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Shoe">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Backpack">T Shirt</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search a Product" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+          <!-- Slider starts here -->
+          <section class="container">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Levis Jeans
+                            </h1>
+                            <p>Jeans lovers, rejoice! It's time to upgrade your collection without breaking the bank. Explore our irresistible jeans sale and seize the opportunity to embrace fashion-forward looks at wallet-friendly prices</p>
+                            <h1>$18</h1>
+                            <button class="panda-btn-buy-now">Buy Now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/pss.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Bata Shoes
+                            </h1>
+                            <p>Put your best foot forward with our sensational shoe sale! Step into savings and step up your style game with our diverse collection of footwear at unbeatable prices</p>
+                            <h1>$60</h1>
+                            <button class="panda-btn-buy-now">Buy Now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/ssss.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>H&M
+                            </h1>
+                            <p>Stay stylish, stay comfortable. Our T-shirts have it all</p>
+                            <h1>$20</h1>
+                            <button class="panda-btn-buy-now">Buy Now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/tss.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+        <!-- Slider ended here -->
+    </header>
+    <!-- Header ended here -->
+    <main>
+        <!-- catagories starts here -->
+        <section class="container catagories my-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 col--12">
+                    <div class="p-3 bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1>PANT</h1>
+                        <img src="images/categories/pant1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col--12">
+                    <div class="p-3 bg-primary d-flex align-items-center justify-content-between rounded-3">
+                        <h1>T Shirt</h1>
+                        <img src="images/categories/ts.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col--12">
+                    <div class="p-3 bg-success d-flex align-items-center justify-content-between rounded-3">
+                        <h1>Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+                <!-- catagories ended here -->
+                <!-- shoe starts here -->
+        <section id="Shoe" class="container">
+          <h2>Shoes</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SPLY-350</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SPLY-350</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RED-AIRMAX</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+  <!-- shoe ended here -->
+   <!-- backpack starts here -->
+        <section id="Backpack" class="container">
+          <h2 class="mt-5">T Shirt</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/bags/tshirt1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">H&M</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/bags/tshirt2" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ZARA</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="images/bags/tshirt3" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">JOCKEY</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="m-3">
+                  <button class="panda-btn-buy-now">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!-- backpack ended here -->
+        <!-- subscribe starts here -->
+        <section style="height: 300px;" id="Subscribe" class="container d-flex justify-content-center align-items-center rounded panda-bg-info mt-5">
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input class="form-control" type="text" placeholder="Enter Your Email">
+            <br>
+            <button class="panda-btn-buy-now">Subscribe</button>
+          </div>
+        </section>
+           <!-- subscribe starts here -->
+    </main>
+    <footer class="m-5 text-center">
+      <div class="container">
+        <p><small>Copyright &COPY;2023 Fashion Fusion E-Commerce</small><br><small>Developed by Vaibhav, Ritik and Vibha</small></p>
+      </div>
+    </footer>
+
+
+
+    <!-- js popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
